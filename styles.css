@@ -66,6 +66,14 @@ nav .navbar-brand {
 
 }
 
+.rainbow-text {
+    background-image: linear-gradient(to left, yellow, violet, indigo, white, green, yellow, red);
+    -webkit-background-clip: text;
+    color: transparent;
+
+}
+
+
 #coyname {
     color: red !important;
 }
@@ -121,12 +129,12 @@ bottom: initial !important;
 */
 
 .carousel-caption {
-    width: 500px;
+    width: 700px;
     z-index: 10;
     color: #fff;
-    text-align: center;
-    top: 15%;
-    left: 1%;
+    text-align: left;
+    top: 30%;
+    left: 5%;
     bottom: auto;
     -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
@@ -135,7 +143,7 @@ bottom: initial !important;
 
 .carousel-caption h1 {
     color: red;
-    font-size: 40px;
+    font-size: 50px;
 
 
 }
@@ -193,6 +201,7 @@ bottom: initial !important;
 .about2 p {
     color: #000;
     font-weight: bold;
+    text-align: justify;
 }
 
 .services {
@@ -201,7 +210,7 @@ bottom: initial !important;
 
     background: rgb(232, 244, 248);
     background: linear-gradient(90deg, rgba(232, 244, 248, 1) 0%, rgba(232, 244, 248, 0.6418942577030813) 40%, rgba(255, 255, 255, 1) 100%);
-    padding: 50px auto;
+    padding: 5px auto;
     margin-bottom: 50px;
 
 }
@@ -225,9 +234,9 @@ bottom: initial !important;
 .img-box img {
     opacity: 5;
     margin: 0px auto;
-    width: 500px;
-    height: 400px;
-    padding: 10px;
+    width: 320px;
+    height: 320px;
+    padding: 5px;
     border: 0px solid #ffff;
     border-radius: 50%;
 }
@@ -242,9 +251,9 @@ bottom: initial !important;
 .img-box-small img {
     opacity: 5;
     margin: 0px auto;
-    width: 450px;
-    height: 400px;
-    padding: 10px;
+    width: 320px;
+    height: 320px;
+    padding: 5px;
     border: 0px solid #ffff;
     border-radius: 50%;
 
@@ -283,8 +292,8 @@ bottom: initial !important;
      */
 
     /* background-color: #f6f5ff; */
-    background-color: #ebecf0;
-    padding: 50px auto;
+    /* background-color: #ebecf0; */
+    /* padding: 50px auto; */
     margin-bottom: 50px;
 
 }
@@ -307,7 +316,7 @@ bottom: initial !important;
 }
 
 .ports-desc {
-    width: 500px;
+    width: 350px;
     padding: 10px auto;
 }
 
@@ -316,14 +325,15 @@ bottom: initial !important;
 .ports .image-box img {
     opacity: 5;
     margin: 0px auto;
-    width: 500px;
-    height: 300px;
+    width: 350px;
+    height: 200px;
     padding: 5px;
     /* border: 1px solid #ebecf0; */
     /* border: 0px solid #333; */
-    border: 0px;
-    box-shadow: 0px 0px 100px #555;
-    /* border-radius: 20%; */
+    /* border: 5px solid gainsboro; */
+    border: 5px solid black;
+    /* box-shadow: 0px 0px 100px #555; */
+    border-radius: 5%;
 }
 
 /* .ports .image-box img:hover {
